@@ -42,7 +42,7 @@ class Window(QMainWindow):
         import window2test as wt
         window2 = wt.Second2(self)
         window2.show()
-        Window.hide(self)
+        # Window.hide(self)
 
 
     def loginstuff2(self):
